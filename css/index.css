@@ -7,3 +7,50 @@
 body{
     font-family: 'Pretendard-Regular';
 }
+header{
+    width: 100%;
+    margin:  auto;
+    text-align: center;
+  
+
+}
+header h1{
+    font-family: 'Roboto Slab', serif;
+    color: #7378FF;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 140px;
+    padding-top: 100px;
+    position: relative;
+
+}
+.out{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-shadow:  -2px 0  #7378FF,
+    0 2px #7378FF, 
+    2px 0 #7378FF,
+    0 -2px #7378FF; 
+}   
+.animation1{
+    width: 160px;
+    height: 160px;
+    background-color: #ECA1A1;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+@keyframes slidein {
+    0% {transform: translateY(1px);}
+    50% {transform: translateY(150px);}
+    100% { transform: rotateY(10px); }
+
+        
+}
+
