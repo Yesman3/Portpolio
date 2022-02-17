@@ -196,3 +196,41 @@ header h1{
 .icons li{
     margin-right: 40px;
 }
+.card-background{
+    height: 2000px;
+}
+.card-box img{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    padding-top: 50px;
+    border-radius: 10px;
+
+}
+
+.card-box{
+    position: sticky;
+    top: 100px;
+    margin-top: 200px;
+    height: 500px;
+    background-color: #BFD7FA;
+    border-radius: 5px;
+    width: 500px;
+    transition : all 0.2s 
+}
+.card-box p{
+    font-size: 25px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-family: 'Pretendard-Regular';;
+    color: #ffff;
+    line-height: 40px;
+
+}
+
+.section-center2{
+    width: 500px;
+    margin: 500px auto;
+    text-align: center;
+   
+}

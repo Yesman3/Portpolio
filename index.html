@@ -119,6 +119,37 @@
             </div>   
         </div>
     </section>
+
+
+    <section>
+        <div class="section-center2">
+            <div>
+                <h2>이렇게 작업을 했어요</h2>
+            </div>
+
+            <div class="card-background">
+                <div class="card-box">
+                    <img src="images/ankhoe 1.jpg">
+                    <p>베트남 음식을 모티브로 삼아<br>
+                    기획, 구상하였습니다.
+                    </p>
+                </div>
+                <div class="card-box">
+                    <img src="images/ridibooks 1.jpg">
+                    <p>
+                        백엔드 개발자와 함께 팀을 꾸려<br>
+                        ajax연동, 실제 회원가입,로그인,비밀번호찾기등<br>
+                        연동할수 있게 하였습니다.
+                    </p>
+                </div>
+                <div class="card-box">
+                    <img src="images/toss 1.jpg">
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
       
 
 
@@ -193,8 +224,38 @@ $(".w3-btn4").on("click",function(){
 
 });
 
-
+  
  
+   </script>
+   <script>
+       $(window).scroll(function(){
+        let 높이 = $(window).scrollTop();
+        console.log(높이);
+
+        // 3029~ 3524까지 스크로바를 내리면
+        // 첫쨰카드의 opacity 1~0으로 서서히 변경하기
+
+        let y =  -1/495 * 높이 + 3524/495
+        
+        // 1 = a * 3029 + b;
+        // 0 = a *3524 + b;
+
+        let z =  -1/4950 * 높이 + 1+3029/4950
+
+        // 1 = a * 3029 + b;
+        // 0.9 = a * 3524 + b;
+
+        // a = -1/4950;
+        // b = 1+(3029/4950)
+  
+
+        $(".card-box").eq(0).css("opacity", y);
+        $(".card-box").eq(0).css("transform", "scale( "+ z +" )");
+
+
+
+       });
+
    </script>
 </body>
 </html>
