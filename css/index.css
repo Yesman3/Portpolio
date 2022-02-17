@@ -140,15 +140,59 @@ header h1{
 }
 .w3-green{
     background-color: #969FF8;
+    border-radius: 3px;
+}
+.w3-green2{
+    background-color: #969FF8;
+    border-radius: 3px;
 }
 
 .percent-list{
     display: flex;
+
 }
 .skillbox{
     width: 470px;
-    margin: auto;
-    padding-left: 50px;
-    text-align: center;
+    margin: auto;  
+    height: 530px;
+    background-color: #f2f2f2;
+    text-align: left;
+    border-radius: 5px;
 
+}
+.skillbox-text{
+    padding: 35px 0 10px 35px;
+}
+.skillbox p{
+    margin-bottom: 40px;
+    font-size: 17px;
+    font-family: 'InfinitySans-RegularA1';
+
+}
+.skillbox li {
+    list-style: none;
+
+}
+.w3-progress-container{
+    width: 360px;
+
+}
+.percent-top li{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.percent-image li{
+    margin-bottom: 10px;
+}
+.w3-text-white{
+    margin-left: 60px;
+    color: white;
+}
+.icons{
+    display: flex;
+    padding-left: 120px;
+
+}
+.icons li{
+    margin-right: 40px;
 }
