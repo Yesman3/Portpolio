@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/lib/w3.css">
 
-<body class="w3-container">
+<body class="w3-container"> 
 
     <header>
         <div class="animation1"></div>
@@ -177,8 +177,9 @@
                     </ul>
                 </div>  
             </div>
+
             <div class="resume-link">
-                <a href="#"><h3>이력서(링크)</h3></a>
+                <h4><a href="#a">이력서(링크)</a></h4>
             </div>
            
         </div>
@@ -311,23 +312,33 @@ $(".w3-btn4").on("click",function(){
         $(".card-box").eq(1).css("transform", "scale( "+ q + ")");
 
 
-       
+        
 
-        //    a = -500/778
-        //    b = 4844 * 500/778
 
-        //    0 = a * 4844 + b
-        //    -1500 = a * 5622 + b
+        let t = -1450/778 * 높이 + 500 + (4844/778*1450)
 
-        let t = -1500/778 * 높이 + 1500/778*4844
+        // 4844 ~ 5622 까지 스크롤바를 내리면
+        // publish-move 박스가 translateX되기 
 
-        $(".publish-move").css("transform","translateX( "+ t +" )")
+        //    a = -1450/778
+        //    b = 500 + 4844/778*1450
+
+
+        //    500 = a * 4844 + b
+        //    -950 = a * 5622 + b
+
+     
+
+        $(".publish-move").css("transform","translateX( " + t + " )")
+
+
 
        });
 
-
+       
      
    </script>
+
 
  
 </body>

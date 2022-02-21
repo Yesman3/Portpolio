@@ -246,7 +246,7 @@ header h1{
     height: 1500px;
 }
 .resume-box{
-    width: 1080px;
+    width: 990px;
     margin:  auto;
 
 
@@ -257,7 +257,7 @@ header h1{
     padding-top: 400px;
     line-height: 50px;
     color: #333;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding-left: 150px;
 
 
@@ -271,7 +271,8 @@ header h1{
   
 }
 .resume-list{
-    font-size: 23px;
+    font-size: 18px;
+    font-weight: bold;
 
 }
 
@@ -290,7 +291,20 @@ header h1{
 }
 .resume-link{
    text-align: center;
+
 }
+.resume-link a{
+    padding: 10px;
+    border: 1px solid #7378FF;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #7378FF;
+}
+.resume-link a:hover{
+    background-color: #e6e6ff;
+    transition: 0.4s;
+}
+
 
 .publish h1{
     width: 200%;
@@ -298,10 +312,12 @@ header h1{
     text-align: center;
     font-size: 100px;
     transform: translateX(500px);
+    box-sizing: border-box;
     text-shadow:  -2px 0  #808080,
     0 2px #808080, 
     2px 0 #808080,
     0 -2px #808080;
     color: #fff;
+
 
 }
