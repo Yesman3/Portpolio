@@ -243,7 +243,7 @@ header h1{
 .section-center3{
     width: 100%;
     background-color: #f2f2f2;
-    height: 1500px;
+    height: 1160px;
 }
 .resume-box{
     width: 990px;
@@ -254,7 +254,7 @@ header h1{
 .resume-text{
     display: flex;
     justify-content: center;
-    padding-top: 400px;
+    padding-top: 220px;
     line-height: 50px;
     color: #333;
     margin-bottom: 60px;
@@ -295,10 +295,10 @@ header h1{
 }
 .resume-link a{
     padding: 10px;
-    border: 1px solid #7378FF;
+    border: 1px solid #8084ff;
     border-radius: 5px;
     text-decoration: none;
-    color: #7378FF;
+    color: #8084ff;
 }
 .resume-link a:hover{
     background-color: #e6e6ff;
@@ -318,6 +318,24 @@ header h1{
     2px 0 #808080,
     0 -2px #808080;
     color: #fff;
+}
+.section-center4{
+    width: 100%;
+    margin: 200px auto;
+    text-align: center;
+   
+}
 
+.section-center4 h3{
+    margin: 70px 0;
+}
+.section-center4 p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #333;
+
+}
+.section-center4 a{
+    text-decoration: none;
 
 }
