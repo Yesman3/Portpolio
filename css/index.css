@@ -148,6 +148,12 @@ header h1{
     border-radius: 3px;
 }
 
+.section2-bg{
+    background-color: #f2f2f2;
+}
+.section1-bg{
+    background-color: #f2f2f2;
+}
 .percent-list{
     display: flex;
 
@@ -156,7 +162,7 @@ header h1{
     width: 470px;
     margin: auto;  
     height: 530px;
-    background-color: #f2f2f2;
+    background-color: #ECA1A1;
     text-align: left;
     border-radius: 5px;
 
@@ -233,9 +239,15 @@ header h1{
 .section-center2{
     width: 500px;
     margin: 500px auto;
+    background-color: #f2f2f2;;
     text-align: center;
    
 }
+
+.background-value{
+    background-color: #f2f2f2;
+}
+
 .section-center2 h2{
     font-weight: 600;
     color: rgb(73, 73, 73);
@@ -323,6 +335,7 @@ header h1{
     width: 100%;
     margin: 200px auto;
     text-align: center;
+
    
 }
 
@@ -332,10 +345,13 @@ header h1{
 .section-center4 p{
     font-size: 20px;
     line-height: 35px;
-    color: #333;
+    color: #666;
 
 }
 .section-center4 a{
     text-decoration: none;
 
+}
+.section-center4 h1{
+    font-size: 100px;
 }
