@@ -104,15 +104,33 @@ header h1{
 
 .section-center{
     width: 1400px;
-    margin: 20px auto;
+    margin: auto;
+
 
 }
 .List{
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     font-family:  'InfinitySans-RegularA1';
     font-size: 20px;
+    padding-top: 200px;
+ 
 
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo{
+    position: sticky;
+    top: 100px;
+    margin-left: 200px;
+    width: 300px;
+
+}
+.List-text{
+    margin-left: 790px;
 }
 .List-text p {
     padding-bottom: 60px;
@@ -133,6 +151,9 @@ header h1{
 
 }
 
+.jakup{
+    padding-top: 200px;
+}
 .remote a{
     text-decoration: none;
     color: #7378FF;
@@ -150,6 +171,7 @@ header h1{
 
 .section2-bg{
     background-color: #f2f2f2;
+    height: 670px;
 }
 .section1-bg{
     background-color: #f2f2f2;
@@ -165,6 +187,7 @@ header h1{
     background-color: #ECA1A1;
     text-align: left;
     border-radius: 5px;
+    margin-right: 142px;
 
 }
 .skillbox-text{
@@ -226,6 +249,10 @@ header h1{
     width: 500px;
     transition : all 0.2s 
 }
+
+.card-box a{
+    text-decoration: none;
+}
 .card-box p{
     font-size: 25px;
     margin-top: 70px;
@@ -255,7 +282,7 @@ header h1{
 .section-center3{
     width: 100%;
     background-color: #f2f2f2;
-    height: 1160px;
+    height: 760px;
 }
 .resume-box{
     width: 990px;
