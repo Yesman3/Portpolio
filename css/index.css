@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -37,16 +41,14 @@ header h1{
 }
 .out{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    color: #7378FF;
     text-shadow:  -2px 0  #7378FF,
-    0 2px #7378FF, 
-    2px 0 #7378FF,
-    0 -2px #7378FF; 
+
 }   
 .animation1{
     width: 160px;
     height: 160px;
-    background-color: #ECA1A1;
+    background-color: #B8C1E6;
     border-radius: 50%;
     position: absolute;
     top: 10%;
@@ -68,7 +70,7 @@ header h1{
 .animation2{
     width: 160px;
     height: 160px;
-    background-color: #969FF8;
+    background-color: #B8C1E6;
     border-radius: 50%;
     position: absolute;
     top: 30%;
@@ -88,7 +90,7 @@ header h1{
 .animation3{
     width: 160px;
     height: 160px;
-    background-color: #D995F1;
+    background-color: #B8C1E6;
     border-radius: 50%;
     position: absolute;
     top: 5%;
@@ -139,7 +141,7 @@ header h1{
     width: 300px;
     height: 300px;
     text-align: center;
-    background-color: #f1f1f1;
+
     border-radius: 10px;
 
 }
