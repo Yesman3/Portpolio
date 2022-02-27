@@ -9,8 +9,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'InfinitySans-RegularA1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -127,15 +127,22 @@ header h1{
 .photo{
     position: sticky;
     top: 100px;
-    margin-left: 200px;
+    margin-left: 170px;
+
     width: 300px;
 
+}
+.photo img{
+    border-radius: 5px;
 }
 .List-text{
     margin-left: 790px;
 }
 .List-text p {
     padding-bottom: 60px;
+    color: #cecece;
+    font-family:  'GowunBatang-Regular';
+    font-size: 21px;
 }
 .remote{
     width: 300px;
@@ -153,9 +160,7 @@ header h1{
 
 }
 
-.jakup{
-    padding-top: 200px;
-}
+
 .remote a{
     text-decoration: none;
     color: #7378FF;
@@ -171,15 +176,11 @@ header h1{
     border-radius: 3px;
 }
 
-.section2-bg{
-    background-color: #f2f2f2;
-    height: 670px;
-}
-.section1-bg{
-    background-color: #f2f2f2;
-}
+
+
 .percent-list{
     display: flex;
+    margin-left: 35px;
 
 }
 .skillbox{
@@ -196,9 +197,12 @@ header h1{
     padding: 35px 0 10px 35px;
 }
 .skillbox p{
+    margin-top: 15px;
     margin-bottom: 40px;
-    font-size: 17px;
-    font-family: 'InfinitySans-RegularA1';
+    font-size: 18px;
+    font-weight: bold;
+    font-family:  'GowunBatang-Regular';
+    color: #222;
 
 }
 .skillbox li {
@@ -211,15 +215,16 @@ header h1{
 }
 .percent-top li{
     margin-top: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 43px;
 }
 
 .percent-image li{
     margin-bottom: 10px;
+    margin-right: 10px;
 }
 .w3-text-white{
     margin-left: 60px;
-    color: white;
+    color: #cecece;
 }
 .icons{
     display: flex;
@@ -259,8 +264,8 @@ header h1{
     font-size: 25px;
     margin-top: 70px;
     font-weight: bold;
-    font-family: 'Pretendard-Regular';;
-    color: #ffff;
+    font-family:'GowunBatang-Regular';
+    color: #fff;
     line-height: 40px;
 
 }
@@ -268,23 +273,22 @@ header h1{
 .section-center2{
     width: 500px;
     margin: 500px auto;
-    background-color: #f2f2f2;;
     text-align: center;
    
 }
 
-.background-value{
-    background-color: #f2f2f2;
-}
 
 .section-center2 h2{
     font-weight: 600;
-    color: rgb(73, 73, 73);
+    color: #cecece;
+    font-family: 'GowunBatang-Regular';
+    font-size: 40px;
 }
+
 .section-center3{
     width: 100%;
-    background-color: #f2f2f2;
-    height: 760px;
+
+    height: 670px;
 }
 .resume-box{
     width: 990px;
@@ -297,7 +301,9 @@ header h1{
     justify-content: center;
     padding-top: 220px;
     line-height: 50px;
-    color: #333;
+    color: #cecece;
+    font-size: 25px;
+    font-family:  'GowunBatang-Regular';
     margin-bottom: 60px;
     padding-left: 150px;
 
@@ -306,14 +312,15 @@ header h1{
 .vertical-line{
     height: 130px;
     width: 2px;
-    background-color: #222;
+    background-color:#cecece;
     margin-right: 50px;
-    margin-left: 50px;
+
   
 }
 .resume-list{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: 'GowunBatang-Regular';
 
 }
 
@@ -326,6 +333,7 @@ header h1{
     padding-top: 30px;
     line-height: 50px;
     width: 300px;
+    margin-left: 46px;
 }
 .vertical-line{
     margin-top: 12px;
@@ -335,14 +343,14 @@ header h1{
 
 }
 .resume-link a{
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #8084ff;
     border-radius: 5px;
     text-decoration: none;
     color: #8084ff;
 }
 .resume-link a:hover{
-    background-color: #e6e6ff;
+    background-color:#797dfd70;
     transition: 0.4s;
 }
 
@@ -358,7 +366,7 @@ header h1{
     0 2px #808080, 
     2px 0 #808080,
     0 -2px #808080;
-    color: #fff;
+    color:#cecece;
 }
 .section-center4{
     width: 100%;
@@ -382,5 +390,38 @@ header h1{
 
 }
 .section-center4 h1{
-    font-size: 100px;
+    font-size: 45px;
+    color: #cecece;
+    margin-bottom: 150px;
+    font-family: 'GowunBatang-Regular';
 }
+
+.figma-text{
+    text-align: center;
+    color: #cecece;
+    font-family: 'GowunBatang-Regular';
+    margin-bottom: 100px;
+}
+.figma-text h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.figma-text p{
+    font-size: 23px;
+}
+.figma-all{
+    width: 106%;
+    display: flex;
+    justify-content:center;
+}
+.figma-flex{
+        display: flex;
+        flex-direction: column;
+}
+.figma-flex img{
+    margin-bottom: 30px;
+}
+.figma-img1{
+    margin-right: 30px;
+}
+    
